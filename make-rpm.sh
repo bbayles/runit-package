@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir -p output
+
 fpm \
 -s "dir" \
 -t "rpm" \
